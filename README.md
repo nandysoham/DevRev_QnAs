@@ -14,7 +14,7 @@ A corpus of text divided into various domains is given. Another set of questions
 ### Paragraph Retrieval Task
 
 #### Synthetic Data Generation
-Taking 40,000 points from the original SQUAD V2 dataset and all available points from the data given and capping it to 10,000 data points by augmenting and generating synthetic data.	
+Taking 40,000 points from the original [SQUAD V2](https://huggingface.co/datasets/rajpurkar/squad_v2) dataset and all available points from the data given and capping it to 10,000 data points by augmenting and generating synthetic data.	
 
 #### Training Methodology
 We divide this task into two subtasks. The first task is finding the top-k paragraphs that can answer the given question from the given set of passages. The second set is predicting the paragraphs that can answer our question among this top-k and passing it on to the next subpart of the project.
@@ -81,7 +81,7 @@ We implemented hashmaps to map the context questions with indices of the unique 
 
 
 
-## For more details pls follow the [docs]()
+## For more details pls follow the [docs](https://github.com/nandysoham/DevRev_QnAs/blob/main/report.pdf)
 
 ### Contributions
 Soham Nandy (Chief contributor)  
